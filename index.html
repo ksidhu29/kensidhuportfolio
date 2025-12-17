@@ -1,141 +1,563 @@
 <!DOCTYPE HTML>
 <!--
 	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<!-- <br /> , this means a line break  -->
+
+
 <html>
-<head>
-	<title>Kenvir Sidhu Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<head>
+		<title>Kenvir Sidhu Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
-	<!-- Gallery Styles -->
-	<style>
-		.gallery {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			gap: 15px;
-			margin-top: 20px;
-			max-width: 850px;
-		}
 
-		.gallery img {
-			width: 100%;
-			height: 200px;
-			object-fit: cover;
-			border-radius: 8px;
-			cursor: pointer;
-			transition: transform 0.2s ease;
-		}
+			<!-- Gallery Styles -->
+		<style>
+			.gallery {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 15px;
+				margin-top: 20px;
+				max-width: 850px;
+			}
 
-		.gallery img:hover {
-			transform: scale(1.03);
-		}
+			.gallery img {
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+				border-radius: 8px;
+				cursor: pointer;
+				transition: transform 0.2s ease;
+			}
 
-		.hidden {
-			display: none;
-		}
+			.gallery img:hover {
+				transform: scale(1.03);
+			}
 
-		.gallery-btn {
-			margin-top: 15px;
-			padding: 10px 18px;
-			font-size: 14px;
-			border-radius: 6px;
-			border: none;
-			cursor: pointer;
-		}
-	</style>
-</head>
+			.hidden {
+				display: none;
+			}
 
-<body class="is-preload">
-<div id="wrapper" class="fade-in">
+			.gallery-btn {
+				margin-top: 15px;
+				padding: 10px 18px;
+				font-size: 14px;
+				border-radius: 6px;
+				border: none;
+				cursor: pointer;
+			}
+		</style>
+	</head>
 
-	<!-- Intro -->
-	<div id="intro">
-		<h1>Kenvir Sidhu</h1>
-		<h2>Portfolio</h2>
-		<p>Electronic Engineering Graduate with experience in circuit design, PCB development, embedded systems and 3D design.</p>
-		<ul class="actions">
-			<li><a class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-		</ul>
-	</div>
 
-	<nav id="nav">
-		<ul class="links">
-			<li class="active"><a>Projects</a></li>
-		</ul>
-		<ul class="icons">
-			<li>
-				<a href="https://www.linkedin.com/in/kenvir-sidhu-b16161345"
-				   class="icon brands alt fa-linkedin">
-				   <span class="label">LinkedIn</span>
-				</a>
-			</li>
-		</ul>
-	</nav>
 
-	<div id="main">
 
-		<!-- ================== 3D LASER SCANNER ================== -->
-		<article class="post featured">
-			<header class="major">
-				<span class="date">Jan 2024 – July 2024</span>
-				<h1>3D Laser Scanner</h1>
-				<h3>CAPSTONE Project</h3>
-			</header>
 
-			<!-- Main Images -->
-			<img src="images/3dscanner1.png" style="width:400px;height:400px;" />
-			<img src="images/3dscanner2.png" style="width:400px;height:400px;" />
 
-			<!-- Gallery Button -->
-			<button class="gallery-btn" onclick="toggleGallery()">
-				View Project Gallery
-			</button>
 
-			<!-- Gallery -->
-			<div id="scannerGallery" class="gallery hidden">
-				<img src="images/3dscanner1.png" alt="">
-				<img src="images/3dscanner2.png" alt="">
-				<img src="images/3dscanner3.png" alt="">
-				<img src="images/3dscanner4.png" alt="">
-				<img src="images/3dscanner5.png" alt="">
-				<img src="images/3dscanner6.png" alt="">
+	<body class="is-preload">
+
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Kenvir Sidhu <br />
+						</h1>
+						<h2>Portfolio</h2>
+
+						<p> Electronic Engineering Graduate with experience in circuit design, PCB development,embedded systems and 3D design.<a href="">	
+							<br /> 	
+						</a>Passionate about innovative electronics solutions and eager to apply analytical problem-solving to real-world challenges. <a href=""></a><br />
+					<!----	<a href="https://www.linkedin.com/in/kenvir-sidhu-b16161345?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FxoSK7WjSny4uywHL8iaTg%3D%3D">Linkedin Account</a></p>  -->
+						<ul class="actions">
+							<li><a class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+					<!--	<a href="index.html" class="logo">Massively</a> -->
+					<!----	<a href="" class="logo">Projects</a> -->
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a>Projects</a></li>
+						<!----	<li><a href="generic.html">Generic Page</a></li>  
+							<li><a href="elements.html">Elements Reference</a></li> -->  
+						</ul>
+						<ul class="icons">
+						<!--	<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+						<!--	<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+						<!--	<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+						<li><a href="https://www.linkedin.com/in/kenvir-sidhu-b16161345?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FxoSK7WjSny4uywHL8iaTg%3D%3D" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+
+							
+						<!--	<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+
+							<!-- Featured Post  (Standalone PCB Redesign for 3D Laser Scanner: Personal Project)--------------------------------------------------------------------------------------------------------->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Mar 2025</span>
+									<h2><a>Standalone PCB Redesign for 3D Laser Scanner<br />
+									</a></h2>
+
+									<h3>Personal Project</h3>
+
+									
+
+								</header>
+
+
+
+								<!-- <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>    -->
+
+								<img src="images/new_3d_design.png" alt="Description of the image" width="900" height="500">  
+
+
+
+								<p>• Designed and optimized a PCB that regulates voltage (switching circuit), with an STM32 MCU controlling both a DC motor and a motion sensor.</p>
+								<p>• Created a PCB schematic featuring filters, fuses, TVS diodes, and voltage regulators for power protection and management, along with communication protocols like UART, I2C, and SPI to enable data exchange between microcontrollers and peripheral devices.</p>
+								<p>• Developed PCB layout with impedance-controlled routing, optimized power/ground planes, and strategic component placement for signal integrity and manufacturability.</p>
+
+								
+
+								<!---
+								<ul class="actions special">
+									<li><a href="#" class="button large">View Project</a></li>
+								</ul>
+
+							-->
+
+							</article>
+
+
+
+
+
+						<!-- Feature Post Power (Regulator (DC/DC) PCB Design: Personal Project)------------------------------------------------------------------------------------------------------------------------>
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Feb 2025</span>
+									<h1><a>Power Regulator (DC/DC) PCB Design<br />
+									</a></h1>
+
+									<h3>Personal Project</h3>
+
+
+
+									<!-- <p>A PCB that steps down a voltage from 5v to 3.3V<br />
+									<br />
+									</p>   -->
+								</header>
+
+							<!----	<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>   -->
+
+
+								<img src="images/Linear_Reg_3.3v.png" alt="Description of the image" width="900" height="500">   
+								
+
+
+								<p>• Designed a voltage regulator circuit in Altium Designer to step down 5V to 3.3V, providing stable power to 3.3V components and ensuring reliable system operation.</p>
+								<p>• Created a compact and efficient PCB layout for a power regulator, keeping traces short and direct to ensure stable operation. </p>
+								<p>• Employed signal integrity techniques, such as proper trace width and grounding, to ensure reliable power delivery and reduced electromagnetic interference (EMI).</p>
+								<p>• Generated Gerber files and bill of materials (BOM) to streamline the PCB fabrication and assembly process.</p>
+
+								<p></p>
+
+								
+								<!----
+
+								<ul class="actions special">
+									<li><a href="#" class="button large">View Project</a></li>
+								</ul>
+
+							-->
+
+							</article>
+
+
+
+
+
+				
+
+						<!-- ================== 3D LASER SCANNER ================== -->
+					<article class="post featured">
+							<header class="major">
+								<span class="date">Jan 2024 – July 2024</span>
+								<h1>3D Laser Scanner</h1>
+								<h3>CAPSTONE Project</h3>
+			
+							</header>
+
+							<!-- Main Images -->
+							<img src="images/3dscanner1.png" style="width:400px;height:400px;" />
+							<img src="images/3dscanner2.png" style="width:400px;height:400px;" />
+
+							<!-- Gallery Button -->
+							<button class="gallery-btn" onclick="toggleGallery()">
+								View Project Gallery
+							</button>
+
+
+							<!-- Gallery -->
+							<div id="scannerGallery" class="gallery hidden">
+							<img src="images/3dscanner1.png" alt="">
+							<img src="images/3dscanner2.png" alt="">
+							
+						</div>
+
+							<p>• Collaborated with a group of students to design a desktop 3D laser scanner addressing lighting issues affecting scan accuracy.</p>
+							<p>• Designed and 3D printed mechanical components using Fusion 360.</p>
+							<p>• Created and maintained technical documentation.</p>
+							<p>• Managed project budget and procurement.</p>
+					</article>
+
+
+
+
+
+
+
+
+						
+							<!-- Featured Post  (Two Stage CMOS Amplifier: Microelectronics 2)------------------------------------------------------------------------------------------------------------------------------->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Jan-Apr 2024</span>
+									<h1><a>Two Stage CMOS Amplifier<br />
+									</a></h1>
+
+									<h3>SFU Project</h3>
+
+
+
+									<!--<p><br />
+									<br />
+									</p>    --> 
+
+
+								</header>
+
+								<img src="images/Cmos_two_stage_amp.png" alt="Description of the image" width="900" height="500">
+
+								<!-- <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>  --> 
+
+
+								<p>• Designed a two stage CMOS amplifier using different combinations of output transistors to obtain the maximum gain.</p>
+								<p>• Constructed the circuit diagram using Lt spice which created the foundation for the two-stage amplifier.</p>
+								<p>• Measured the gain of the CMOS amplifier and learnt how a compensating capacitor affects the gain in circuits.</p>
+
+								
+
+								<!---
+								<ul class="actions special">
+									<li><a href="#" class="button large">View Project</a></li>
+								</ul>
+
+							-->
+
+							</article>
+
+
+
+
+
+
+						
+							<!-- Featured Post  (Customized UART Protocol)------------------------------------------------------------------------------------------------------------------------------->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Mar-Apr 2023</span>
+									<h1><a>Customized UART Protocol<br />
+									</a></h1>
+
+									<h3>SFU Project</h3>
+
+								<!----	<p><br />
+									<br />
+									</p>   -->
+									
+									
+								</header>
+
+								<img src="images/Uart.png" alt="Description of the image" width="900" height="500">
+
+
+								<!--  <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>  -->
+
+
+								<p>• Designed a fully function customized UART protocol using Quartus on an FPGA board, enabling reliable parallel-to-serial data transmission.</p>
+								<p>• Created testbenches for both UART transmitter and receiver modules, enabling accurate waveform simulation and functional verification using ModelSim.</p>
+								<p>• Applied power saving practices using Quartus power tools which would monitor power consumption and optimize the design for maximum efficiency.</p>
+
+						
+								<!---
+								<ul class="actions special">
+									<li><a href="#" class="button large">View Project</a></li>
+								</ul>
+
+							-->
+
+							</article>
+
+
+
+
+
+							<!-- Featured Post  (Motion-Activated Streaming Camera)------------------------------------------------------------------------------------------------------------------------------->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Nov-Dec 2022</span>
+									<h1><a>Automated Motion-Sensing Security Light<br />
+									</a></h1>
+
+									<h3>SFU Project</h3>
+
+								<!----	<p><br />
+									<br />
+									</p>   -->
+									
+									
+								</header>
+
+								<img src="images/motionsensor.png" alt="Description of the image" width="900" height="500">
+
+
+								<!--  <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>  -->
+
+
+								<p>• Collaborated with a team of three to design and implement a Motion-Activated Streaming Camera using an embedded Linux system for integrated security and lighting functionality.</p>
+								<p>• Assembled and tested the circuit using a BeagleBone Black, relay module, motion sensor, and LEDs, ensuring proper hardware compatibility and signal routing.</p>
+								<p>• Developed C code to interface the motion sensor with the BeagleBone GPIOs, enabling the system to trigger video streaming and lighting based on detected movement.</p>
+								<p>• Designed and implemented a relay-controlled LED switch that activated when ambient light voltage dropped below 1V, providing automatic lighting under low-light conditions.<p>
+
+						
+								<!---
+								<ul class="actions special">
+									<li><a href="#" class="button large">View Project</a></li>
+								</ul>
+
+							-->
+
+							</article>
+
+
+
+						
+						<!-- Featured Post  (Low-Pass Filter)------------------------------------------------------------------------------------------------------------------------------->
+						<article class="post featured">
+							<header class="major">
+								<span class="date">July 2022</span>
+								<h1><a>Forth-order Low-Pass Butterworth Filter<br />
+								</a></h1>
+
+								<h3>SFU Project</h3>
+
+							<!----	<p><br />
+								<br />
+								</p>   -->
+								
+								
+							</header>
+
+							<img src="images/low_pass.png" alt="Description of the image" width="900" height="500">
+
+
+							<!--  <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>  -->
+
+
+							<p>• Designed a fourth-order low-pass butterworth filter which resulted in suppressing the aliased energy getting into the digitized signal.</p>
+							<p>• Constructed the circuit diagram using Lt spice which created the foundation for the low-pass filter circuit.</p>
+							<p>• Analysed the circuit using circuit analysis techniques which resulted in passing audio ranged signals but supressing signals at higher frequencies.</p>
+
+					
+							<!---
+							<ul class="actions special">
+								<li><a href="#" class="button large">View Project</a></li>
+							</ul>
+
+						-->
+
+						</article>
+
+
+
+							
+
+
+
+	
+						<!-- Posts --------------------------------------------------------------------------------------------------------------------->
+						 <!----
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">April 24, 2017</span>
+										<h2><a href="#">Sed magna<br />
+										ipsum faucibus</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+
+
+									<header>
+										<span class="date">April 22, 2017</span>
+										<h2><a href="#">Primis eget<br />
+										imperdiet lorem</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>           -->          
+
+								<!------------------------------------------------------------------------------------------------------------------------>	
+
+
+
+							
+						<!-- Footer ------------------------------------------------------------------------------------------------------------>
+
+						
+					<!----		<footer>
+								<div class="pagination">                                 -->
+									<!--<a href="#" class="previous">Prev</a>-->
+								<!----	<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+
+					</div>
+
+
+				-->
+				
+				<!-- Footer -->
+
+				<!----
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+
+								-->
+
+
+								<!------------------------------------------------------------------------------>
+								</ul>
+							</form>
+
+							
+						</section>
+						<section class="split contact">
+							<section class="alt">
+
+								<!----
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+
+							-->
+
+							<!----	
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>        -->
+
+						
+								<h3>Social</h3>
+								<ul class="icons alt">
+
+									<li><a href="https://www.linkedin.com/in/kenvir-sidhu-b16161345?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FxoSK7WjSny4uywHL8iaTg%3D%3D" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+
+									<!---
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+
+								-->
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
 			</div>
 
-			<p>• Collaborated with a group of students to design a desktop 3D laser scanner addressing lighting issues affecting scan accuracy.</p>
-			<p>• Designed and 3D printed mechanical components using Fusion 360.</p>
-			<p>• Created and maintained technical documentation.</p>
-			<p>• Managed project budget and procurement.</p>
-		</article>
+		<!-- Scripts -->
 
-	</div>
 
-	<div id="copyright">
-		<ul>
-			<li>&copy; Untitled</li>
-			<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-		</ul>
-	</div>
-</div>
+		<script>
+	     function toggleGallery() {
+			document
+				.getElementById("scannerGallery")
+				.classList.toggle("hidden");
 
-<!-- Scripts -->
-<script>
-	function toggleGallery() {
-		document
-			.getElementById("scannerGallery")
-			.classList.toggle("hidden");
-	}
-</script>
+			}
+		</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
-
-</body>
+	</body>
 </html>
