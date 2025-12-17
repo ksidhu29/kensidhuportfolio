@@ -18,6 +18,30 @@
 
 			<!-- Gallery Styles -->
 		<style>
+
+						/* ================= RESPONSIVE IMAGE FIX ================= */
+			.post.featured img {
+				display: block;
+				max-width: 100%;
+				height: auto;
+				margin: 0 auto 1.5em auto;
+			}
+
+			.image-row {
+				display: flex;
+				justify-content: center;
+				gap: 20px;
+				flex-wrap: wrap;
+				margin-bottom: 1.5em;
+			}
+
+			.image-row img {
+				max-width: 45%;
+				height: auto;
+			}
+
+
+			/* ================= GALLERY ================= */
 			.gallery {
 				display: grid;
 				grid-template-columns: repeat(3, 1fr);
@@ -205,9 +229,12 @@
 			
 							</header>
 
-							<!-- Main Images -->
-							<img src="images/3dscanner1.png" style="width:400px;height:400px;" />
-							<img src="images/3dscanner2.png" style="width:400px;height:400px;" />
+							
+
+							<div class="image-row">
+								<img src="images/3dscanner1.png" alt="">
+								<img src="images/3dscanner2.png" alt="">
+							</div>
 
 							<br>
 
